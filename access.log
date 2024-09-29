@@ -1,0 +1,6 @@
+echo '127.0.0.1 - - [28/Sep/2024:00:00:01 +0000] "GET /index.html HTTP/1.1" 200 2326' > access.log
+echo '127.0.0.1 - - [28/Sep/2024:00:00:02 +0000] "GET /about.html HTTP/1.1" 200 2048' >> access.log
+echo '127.0.0.1 - - [28/Sep/2024:00:00:03 +0000] "GET /nonexistent.html HTTP/1.1" 404 512' >> access.log
+echo '127.0.0.1 - - [28/Sep/2024:00:00:04 +0000] "GET /index.html HTTP/1.1" 200 2326' >> access.log
+echo '127.0.0.1 - - [28/Sep/2024:00:00:05 +0000] "GET /about.html HTTP/1.1" 200 2048' >> access.log
+echo '127.0.0.1 - - [28/Sep/2024:00:00:06 +0000] "GET /nonexistent.html HTTP/1.1" 404 512' >> access.log
